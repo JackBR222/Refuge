@@ -111,4 +111,8 @@ public class PlayerMove : MonoBehaviour
         animator.SetBool("IsRunning", false);
         animator.SetFloat("Speed", 0f);
     }
+    public Vector2 GetInputDirection()
+    {
+        return rawInput;
+    }
 }

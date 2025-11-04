@@ -43,6 +43,8 @@ public class InkDialogueManager : MonoBehaviour
     private const string PORTRAIT_TAG = "portrait";
     private const string AUDIO_TAG = "audio";
 
+    [SerializeField] private DialogueChoices dialogueChoices;
+
     void Awake()
     {
         if (nextButton != null)
@@ -191,41 +193,15 @@ public class InkDialogueManager : MonoBehaviour
 
     private void ShowChoices()
     {
-        foreach (Transform child in choicesContainer)
-        {
-            Destroy(child.gameObject);
-        }
-
         if (currentStory.currentChoices.Count > 0)
         {
             nextButton.gameObject.SetActive(false);
-
-            foreach (Choice choice in currentStory.currentChoices)
-            {
-                GameObject choiceButton = Instantiate(choiceButtonPrefab, choicesContainer);
-                TextMeshProUGUI buttonText = choiceButton.GetComponentInChildren<TextMeshProUGUI>();
-                buttonText.text = choice.text;
-
-                Button button = choiceButton.GetComponent<Button>();
-                button.onClick.AddListener(() => MakeChoice(choice));
-            }
+            dialogueChoices.Initialize(currentStory, this);
         }
         else
         {
             nextButton.gameObject.SetActive(true);
         }
-    }
-
-    private void MakeChoice(Choice choice)
-    {
-        currentStory.ChooseChoiceIndex(choice.index);
-
-        foreach (Transform child in choicesContainer)
-        {
-            Destroy(child.gameObject);
-        }
-
-        NextLine();
     }
 
     private void HandleTags(List<string> currentTags)
@@ -274,7 +250,6 @@ public class InkDialogueManager : MonoBehaviour
             currentVoiceAudio = portraitManager.HandleTags(speakerName, portraitName, audioName);
     }
 
-
     private void EndDialogue()
     {
         dialoguePanel.SetActive(false);
@@ -287,5 +262,11 @@ public class InkDialogueManager : MonoBehaviour
             currentNPC.OnDialogueEnd();
             currentNPC = null;
         }
+    }
+
+    public void ContinueAfterChoice()
+    {
+        if (currentStory == null) return;
+        NextLine();
     }
 }

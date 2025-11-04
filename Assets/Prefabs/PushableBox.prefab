@@ -288,4 +288,6 @@ MonoBehaviour:
   moveSpeed: 1
   obstacleLayers:
     serializedVersion: 2
-    m_Bits: 1
+    m_Bits: 65
+  ignoredTags:
+  - NPC

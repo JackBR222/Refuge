@@ -1,92 +1,104 @@
 using UnityEngine;
 
+[RequireComponent(typeof(BoxCollider2D))]
 public class PushableBlock : MonoBehaviour
 {
-    public float moveSpeed = 5f;
-    private bool isMoving = false;
-    private Vector2 targetPosition;
-    private float moveCooldown = 0.2f;
-    private float lastMoveTime = -1f;
+    public float moveSpeed = 3f;
+    public LayerMask obstacleLayers;
+    public string[] ignoredTags;
 
     private BoxCollider2D boxCollider;
-    public LayerMask obstacleLayers;
+    private Rigidbody2D rb;
+    private bool isBeingPushed = false;
+    private Vector2 pushDirection;
 
     private void Start()
     {
-        transform.position = new Vector2(Mathf.Round(transform.position.x), Mathf.Round(transform.position.y));
-        targetPosition = transform.position;
+        rb = GetComponent<Rigidbody2D>();
+        if (rb == null)
+            rb = gameObject.AddComponent<Rigidbody2D>();
+
+        rb.bodyType = RigidbodyType2D.Kinematic;
+        rb.gravityScale = 0;
+        rb.constraints = RigidbodyConstraints2D.FreezeRotation;
 
         boxCollider = GetComponent<BoxCollider2D>();
-        if (boxCollider == null)
-        {
-            Debug.LogError("PushableBlock precisa de um BoxCollider2D!");
-        }
+        transform.position = new Vector2(Mathf.Round(transform.position.x), Mathf.Round(transform.position.y));
     }
 
-    private void Update()
+    private void FixedUpdate()
     {
-        if (isMoving)
+        if (isBeingPushed)
         {
-            transform.position = Vector2.MoveTowards(transform.position, targetPosition, moveSpeed * Time.deltaTime);
-
-            if (Vector2.Distance(transform.position, targetPosition) < 0.01f)
-            {
-                transform.position = targetPosition;
-                isMoving = false;
-            }
+            Vector2 desiredPos = (Vector2)transform.position + pushDirection * moveSpeed * Time.fixedDeltaTime;
+            if (CanMoveTo(desiredPos))
+                rb.MovePosition(desiredPos);
         }
     }
 
     private void OnCollisionStay2D(Collision2D collision)
     {
-        if (isMoving || Time.time - lastMoveTime < moveCooldown) return;
-
-        if (collision.gameObject.CompareTag("Player"))
+        if (ShouldIgnoreCollision(collision.gameObject))
         {
-            Vector2 pushDirection = GetPushDirection(collision);
-            if (pushDirection != Vector2.zero)
-            {
-                Vector2 desiredPos = (Vector2)transform.position + pushDirection;
+            isBeingPushed = false;
+            return;
+        }
 
-                if (CanMoveTo(desiredPos))
-                {
-                    targetPosition = desiredPos;
-                    isMoving = true;
-                    lastMoveTime = Time.time;
+        if (!collision.gameObject.CompareTag("Player"))
+        {
+            isBeingPushed = false;
+            return;
+        }
 
-                    Debug.DrawRay(transform.position, pushDirection, Color.red, 0.5f);
-                }
-            }
+        // VETOR DO JOGADOR ? PARA A CAIXA
+        Vector2 fromPlayerToBox = ((Vector2)transform.position - (Vector2)collision.transform.position).normalized;
+
+        // Define direção de empurrão pelo eixo dominante
+        if (Mathf.Abs(fromPlayerToBox.x) > Mathf.Abs(fromPlayerToBox.y))
+            pushDirection = new Vector2(Mathf.Sign(fromPlayerToBox.x), 0);
+        else
+            pushDirection = new Vector2(0, Mathf.Sign(fromPlayerToBox.y));
+
+        // Checa se o jogador está andando realmente NESSA direção
+        PlayerMove player = collision.gameObject.GetComponent<PlayerMove>();
+        if (player != null)
+        {
+            Vector2 input = player.GetInputDirection();
+            // Jogador deve pressionar em direção À CAIXA (não ao contrário)
+            if (Vector2.Dot(input, fromPlayerToBox) > 0.5f)
+                isBeingPushed = true;
+            else
+                isBeingPushed = false;
+        }
+        else
+        {
+            isBeingPushed = false;
         }
     }
 
-    Vector2 GetPushDirection(Collision2D collision)
+    private void OnCollisionExit2D(Collision2D collision)
     {
-        Vector2 pushDir = (transform.position - collision.transform.position).normalized;
-
-        if (Mathf.Abs(pushDir.x) > Mathf.Abs(pushDir.y))
-            return new Vector2(Mathf.Sign(pushDir.x), 0);
-        else
-            return new Vector2(0, Mathf.Sign(pushDir.y));
+        if (collision.gameObject.CompareTag("Player"))
+            isBeingPushed = false;
     }
 
-    bool CanMoveTo(Vector2 targetPos)
+    private bool CanMoveTo(Vector2 targetPos)
     {
-        if (boxCollider == null) return false;
-
         Vector2 boxSize = boxCollider.size * 0.9f;
-
         Collider2D hit = Physics2D.OverlapBox(targetPos, boxSize, 0f, obstacleLayers);
-
         return hit == null;
     }
 
-    private void OnDrawGizmosSelected()
+    private bool ShouldIgnoreCollision(GameObject other)
     {
-        if (boxCollider == null) return;
+        if (ignoredTags == null || ignoredTags.Length == 0)
+            return false;
 
-        Gizmos.color = Color.cyan;
-        Vector2 boxSize = boxCollider.size * 0.9f;
-        Gizmos.DrawWireCube(targetPosition, boxSize);
+        foreach (string tag in ignoredTags)
+        {
+            if (other.CompareTag(tag))
+                return true;
+        }
+        return false;
     }
 }

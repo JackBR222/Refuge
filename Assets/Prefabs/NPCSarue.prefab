@@ -225,6 +225,11 @@ MonoBehaviour:
   followDistanceThreshold: 3.5
   stoppingDistance: 1.3
   closeEnoughDistance: 1
+  canRun: 1
+  tooFarDistance: 10
+  OnTooFarFromPlayer:
+    m_PersistentCalls:
+      m_Calls: []
   rb: {fileID: 6945628494614106259}
   animator: {fileID: 3988204470648755172}
 --- !u!114 &4513731631429325763
@@ -243,6 +248,7 @@ MonoBehaviour:
   dialogueManager: {fileID: 0}
   maxFacingAngle: 35
   visualCue: {fileID: 9122892965962702880}
+  interactionCooldown: 0.5
 --- !u!114 &4782855775136762227
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -285,6 +291,30 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
+        - m_Target: {fileID: 3988204470648755172}
+          m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
+          m_MethodName: set_enabled
+          m_Mode: 6
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 1
+          m_CallState: 2
+        - m_Target: {fileID: 0}
+          m_TargetAssemblyTypeName: NPCInteractDialogue, Assembly-CSharp
+          m_MethodName: SetInkFile
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 4900000, guid: ec2b5bd02aafc234ebdd8221829fcdfe, type: 3}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.TextAsset, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 1
+          m_CallState: 2
   - expectedValue: assustou_sarue
     onMatch:
       m_PersistentCalls:
@@ -293,6 +323,18 @@ MonoBehaviour:
           m_TargetAssemblyTypeName: NPCInteractDialogue, Assembly-CSharp
           m_MethodName: DisableInteraction
           m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 4043792554313679371}
+          m_TargetAssemblyTypeName: NPCFollower, Assembly-CSharp
+          m_MethodName: set_enabled
+          m_Mode: 6
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -436,9 +478,9 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: -107841615
-  m_SortingLayer: 1
+  m_SortingLayer: 2
   m_SortingOrder: 0
-  m_Sprite: {fileID: 2668419430850956262, guid: 4c130b33bfe4d8e4a942721adef00a74, type: 3}
+  m_Sprite: {fileID: -5444761115681593122, guid: e0a6d40f4a66bfa42b7de83061dc49bc, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -457,7 +499,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5611526550195395271}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 52b8d93b11ca9754d85083b795c885e8, type: 2}
   m_CullingMode: 0
@@ -562,9 +604,9 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingLayerID: -107841615
+  m_SortingLayer: 2
+  m_SortingOrder: 1
   m_Sprite: {fileID: -8503743628074957463, guid: 07710615113429a44a4e2cbfa9b60e60, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
