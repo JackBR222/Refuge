@@ -12,11 +12,13 @@ public class DialoguePortraitManager : MonoBehaviour
     [SerializeField] private Sprite sarueNeutral;
     [SerializeField] private Sprite maracajaNeutral;
     [SerializeField] private Sprite jabutiNeutral;
+    [SerializeField] private Sprite fireflyNeutral;
 
     [Header("Referências de Sons")]
     [SerializeField] private AudioSource sarueVoice;
     [SerializeField] private AudioSource maracajaVoice;
     [SerializeField] private AudioSource jabutiVoice;
+    [SerializeField] private AudioSource fireflyVoice;
 
     public AudioSource HandleTags(string speakerName, string portraitName, string audioName = null)
     {
@@ -54,6 +56,10 @@ public class DialoguePortraitManager : MonoBehaviour
                 portraitImage.sprite = jabutiNeutral;
                 break;
 
+            case "FireflyNeutral":
+                portraitImage.sprite = fireflyNeutral;
+                break;
+
             default:
                 Debug.LogWarning("Retrato não encontrado: " + portraitName);
                 break;
@@ -72,6 +78,9 @@ public class DialoguePortraitManager : MonoBehaviour
 
             case "JabutiVoice":
                 return jabutiVoice;
+
+            case "FireflyVoice":
+                return fireflyVoice;
 
             default:
                 Debug.LogWarning("Áudio não encontrado: " + audioName);

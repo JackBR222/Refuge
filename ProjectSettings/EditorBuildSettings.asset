@@ -9,7 +9,7 @@ EditorBuildSettings:
     path: Assets/Scenes/MainMenu.unity
     guid: fc50dff3ba9edd54c8914113d5386281
   - enabled: 1
-    path: Assets/Scenes/DarkForest.unity
+    path: Assets/Scenes/DeadWoods.unity
     guid: a033e1096aa125c41a49da822b700d9e
   - enabled: 1
     path: Assets/Scenes/EndDemo.unity

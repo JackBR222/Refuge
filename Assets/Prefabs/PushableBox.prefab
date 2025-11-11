@@ -119,6 +119,7 @@ GameObject:
   - component: {fileID: 6844997661237628288}
   - component: {fileID: 2671191434423997488}
   - component: {fileID: 6031010802431737188}
+  - component: {fileID: 4394077586755908028}
   m_Layer: 3
   m_Name: PushableBox
   m_TagString: Pushable
@@ -291,3 +292,16 @@ MonoBehaviour:
     m_Bits: 65
   ignoredTags:
   - NPC
+--- !u!114 &4394077586755908028
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9147529128239015153}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88d5d3c344d4ac8499db40099f8401f1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ResetPushableBlock
+  initialPosition: {x: 19, y: 0}

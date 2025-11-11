@@ -1,5 +1,134 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2633355562858757443
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7766934009400522477}
+  - component: {fileID: 6391699667066407435}
+  m_Layer: 0
+  m_Name: FireflyVoice
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7766934009400522477
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2633355562858757443}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7842406659335894775}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &6391699667066407435
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2633355562858757443}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 8300000, guid: bb619f478c51c9a4d9d0250b61f71e0e, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &2725804212580367405
 GameObject:
   m_ObjectHideFlags: 0
@@ -161,6 +290,7 @@ Transform:
   - {fileID: 1265032310859052641}
   - {fileID: 5853619966915182860}
   - {fileID: 4775485624133848477}
+  - {fileID: 7766934009400522477}
   m_Father: {fileID: 2258228467763603912}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &3940037222089830588
@@ -303,6 +433,7 @@ GameObject:
   - component: {fileID: 2258228467763603912}
   - component: {fileID: 8436140734233557528}
   - component: {fileID: 3636682966382337869}
+  - component: {fileID: 3851049156556097160}
   m_Layer: 0
   m_Name: InkDialogueSystem
   m_TagString: Untagged
@@ -348,6 +479,7 @@ MonoBehaviour:
   inkJsonFile: {fileID: 0}
   portraitManager: {fileID: 3636682966382337869}
   playerMove: {fileID: 0}
+  dialogueChoices: {fileID: 3851049156556097160}
 --- !u!114 &3636682966382337869
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -362,12 +494,30 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DialoguePortraitManager
   portraitImage: {fileID: 0}
   displayNameText: {fileID: 0}
-  sarueNeutral: {fileID: 5257178525409142026, guid: 4c130b33bfe4d8e4a942721adef00a74, type: 3}
-  maracajaNeutral: {fileID: 5257178525409142026, guid: ba18caec40ff07544990e9679429bf4b, type: 3}
-  jabutiNeutral: {fileID: 5257178525409142026, guid: a26a980a782a215409acebce86b146da, type: 3}
+  sarueNeutral: {fileID: 1718746833257996906, guid: e0a6d40f4a66bfa42b7de83061dc49bc, type: 3}
+  maracajaNeutral: {fileID: -444528743166821646, guid: 6e8bf94795975f94885cbb22799b5b71, type: 3}
+  jabutiNeutral: {fileID: 1060397473198181362, guid: 73203f05ae1e7d0429da2332ce568318, type: 3}
+  fireflyNeutral: {fileID: 1284510669, guid: 7d0d63db98046be41bf9a04c2eae04c7, type: 3}
   sarueVoice: {fileID: 172264401449697252}
   maracajaVoice: {fileID: 4816162164771555465}
   jabutiVoice: {fileID: 1233373905586762613}
+  fireflyVoice: {fileID: 6391699667066407435}
+--- !u!114 &3851049156556097160
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5490566251149605182}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 479ddba84d8f7e645849a1b7da7ef52e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueChoices
+  choicesContainer: {fileID: 0}
+  choiceButtonPrefab: {fileID: 2610494884724293563, guid: 8a5951b7ff08dd9468bb58d519eaefdb, type: 3}
+  normalColor: {r: 1, g: 1, b: 1, a: 1}
+  dimmedColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
 --- !u!1 &8511700550520342481
 GameObject:
   m_ObjectHideFlags: 0

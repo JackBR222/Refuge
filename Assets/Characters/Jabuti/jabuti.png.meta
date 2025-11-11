@@ -140,9 +140,9 @@ TextureImporter:
       name: jabuti_0
       rect:
         serializedVersion: 2
-        x: 438
-        y: 78
-        width: 27
+        x: 23
+        y: 15
+        width: 19
         height: 13
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -162,9 +162,9 @@ TextureImporter:
       name: jabuti_1
       rect:
         serializedVersion: 2
-        x: 566
-        y: 78
-        width: 27
+        x: 87
+        y: 15
+        width: 19
         height: 13
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -184,9 +184,9 @@ TextureImporter:
       name: jabuti_2
       rect:
         serializedVersion: 2
-        x: 694
-        y: 78
-        width: 25
+        x: 151
+        y: 15
+        width: 19
         height: 13
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -206,9 +206,9 @@ TextureImporter:
       name: jabuti_3
       rect:
         serializedVersion: 2
-        x: 55
-        y: 47
-        width: 19
+        x: 215
+        y: 15
+        width: 25
         height: 13
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -228,9 +228,9 @@ TextureImporter:
       name: jabuti_4
       rect:
         serializedVersion: 2
-        x: 183
-        y: 47
-        width: 19
+        x: 277
+        y: 15
+        width: 27
         height: 13
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -250,9 +250,9 @@ TextureImporter:
       name: jabuti_5
       rect:
         serializedVersion: 2
-        x: 311
-        y: 47
-        width: 19
+        x: 341
+        y: 15
+        width: 27
         height: 13
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -272,9 +272,9 @@ TextureImporter:
       name: jabuti_6
       rect:
         serializedVersion: 2
-        x: 439
-        y: 47
-        width: 25
+        x: 407
+        y: 15
+        width: 19
         height: 13
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -294,9 +294,9 @@ TextureImporter:
       name: jabuti_7
       rect:
         serializedVersion: 2
-        x: 565
-        y: 47
-        width: 27
+        x: 471
+        y: 15
+        width: 19
         height: 13
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -316,9 +316,9 @@ TextureImporter:
       name: jabuti_8
       rect:
         serializedVersion: 2
-        x: 693
-        y: 47
-        width: 27
+        x: 535
+        y: 15
+        width: 19
         height: 13
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -338,9 +338,9 @@ TextureImporter:
       name: jabuti_9
       rect:
         serializedVersion: 2
-        x: 823
-        y: 47
-        width: 19
+        x: 592
+        y: 15
+        width: 25
         height: 13
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -360,9 +360,9 @@ TextureImporter:
       name: jabuti_10
       rect:
         serializedVersion: 2
-        x: 951
-        y: 47
-        width: 19
+        x: 656
+        y: 15
+        width: 27
         height: 13
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -382,9 +382,9 @@ TextureImporter:
       name: jabuti_11
       rect:
         serializedVersion: 2
-        x: 1079
-        y: 47
-        width: 19
+        x: 720
+        y: 15
+        width: 27
         height: 13
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
