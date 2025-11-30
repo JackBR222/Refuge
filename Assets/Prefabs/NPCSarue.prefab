@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 4043792554313679371}
   - component: {fileID: 4513731631429325763}
   - component: {fileID: 4782855775136762227}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: NPCSarue
   m_TagString: NPC
   m_Icon: {fileID: 0}
@@ -92,7 +92,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.22, y: 0.31}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 0
@@ -224,8 +224,6 @@ MonoBehaviour:
   runSpeed: 6
   followDistanceThreshold: 3.5
   stoppingDistance: 1.3
-  closeEnoughDistance: 1
-  canRun: 1
   tooFarDistance: 10
   OnTooFarFromPlayer:
     m_PersistentCalls:
@@ -413,7 +411,7 @@ GameObject:
   - component: {fileID: 7441295325038357814}
   m_Layer: 0
   m_Name: Sprite
-  m_TagString: Untagged
+  m_TagString: NPC
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -538,9 +536,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1290231141414219558}
   - component: {fileID: 4048471894848758904}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: VisualCue
-  m_TagString: Untagged
+  m_TagString: NPC
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -604,8 +602,8 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: -107841615
-  m_SortingLayer: 2
+  m_SortingLayerID: -1655077939
+  m_SortingLayer: 3
   m_SortingOrder: 1
   m_Sprite: {fileID: -8503743628074957463, guid: 07710615113429a44a4e2cbfa9b60e60, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}

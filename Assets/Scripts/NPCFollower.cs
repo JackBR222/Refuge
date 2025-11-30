@@ -12,8 +12,6 @@ public class NPCFollower : MonoBehaviour
     [SerializeField] private float runSpeed = 6f;
     [SerializeField] private float followDistanceThreshold = 5f;
     [SerializeField] private float stoppingDistance = 1f;
-    [SerializeField] private float closeEnoughDistance = 0.5f;
-    [SerializeField] private bool canRun = true;
 
     [Header("Evento quando estiver longe demais")]
     [SerializeField] private float tooFarDistance = 10f;
@@ -24,12 +22,12 @@ public class NPCFollower : MonoBehaviour
     [SerializeField] private Animator animator;
 
     private Collider2D npcCollider;
-    private Collider2D playerCollider;
     private Vector2 directionToPlayer;
     private float speed;
 
     private bool shouldFollow = false;
-    private bool hasTriggeredTooFarEvent = false;
+
+    public bool IsFollowing => shouldFollow;
 
     private void Awake()
     {
@@ -37,7 +35,6 @@ public class NPCFollower : MonoBehaviour
         if (animator == null) animator = GetComponent<Animator>();
 
         npcCollider = GetComponent<Collider2D>();
-        playerCollider = player.GetComponent<Collider2D>();
 
         rb.gravityScale = 0f;
         rb.freezeRotation = true;
@@ -59,18 +56,10 @@ public class NPCFollower : MonoBehaviour
 
         if (distanceToPlayer > tooFarDistance)
         {
-            if (!hasTriggeredTooFarEvent)
-            {
-                hasTriggeredTooFarEvent = true;
-                OnTooFarFromPlayer?.Invoke();
-            }
-        }
-        else
-        {
-            hasTriggeredTooFarEvent = false;
+            OnTooFarFromPlayer?.Invoke();
         }
 
-        if (canRun && distanceToPlayer > followDistanceThreshold)
+        if (distanceToPlayer > followDistanceThreshold)
         {
             speed = runSpeed;
         }
@@ -83,20 +72,10 @@ public class NPCFollower : MonoBehaviour
         {
             directionToPlayer = (player.position - transform.position).normalized;
             rb.linearVelocity = directionToPlayer * speed;
-
-            if (distanceToPlayer <= closeEnoughDistance)
-            {
-                DisableCollider();
-            }
-            else
-            {
-                EnableCollider();
-            }
         }
         else
         {
             rb.linearVelocity = Vector2.zero;
-            EnableCollider();
         }
     }
 
@@ -113,7 +92,7 @@ public class NPCFollower : MonoBehaviour
             animator.SetBool("IsMoving", true);
             animator.SetFloat("MoveX", directionToPlayer.x);
             animator.SetFloat("MoveY", directionToPlayer.y);
-            animator.SetBool("IsRunning", speed == runSpeed && canRun);
+            animator.SetBool("IsRunning", speed == runSpeed);
         }
         else
         {
@@ -125,7 +104,7 @@ public class NPCFollower : MonoBehaviour
     public void StartFollowing()
     {
         shouldFollow = true;
-        DisableColliderForPlayer();
+        DisableCollider();
     }
 
     public void StopFollowing()
@@ -133,23 +112,6 @@ public class NPCFollower : MonoBehaviour
         shouldFollow = false;
         rb.linearVelocity = Vector2.zero;
         EnableCollider();
-        EnableColliderForPlayer();
-    }
-
-    private void DisableColliderForPlayer()
-    {
-        if (npcCollider != null && playerCollider != null)
-        {
-            Physics2D.IgnoreCollision(npcCollider, playerCollider, true);
-        }
-    }
-
-    private void EnableColliderForPlayer()
-    {
-        if (npcCollider != null && playerCollider != null)
-        {
-            Physics2D.IgnoreCollision(npcCollider, playerCollider, false);
-        }
     }
 
     private void DisableCollider()

@@ -1,0 +1,3666 @@
+fileFormatVersion: 2
+guid: 62339849bd07e5845ace51f0963747b7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4651942541743997801
+    second: hummingbird_0
+  - first:
+      213: 1655732220319120083
+    second: hummingbird_1
+  - first:
+      213: 4974355795412760726
+    second: hummingbird_2
+  - first:
+      213: -5944121113216497081
+    second: hummingbird_3
+  - first:
+      213: -5349586201909679176
+    second: hummingbird_4
+  - first:
+      213: -4897307192337742822
+    second: hummingbird_5
+  - first:
+      213: 791730527333707673
+    second: hummingbird_6
+  - first:
+      213: -2523739131603551764
+    second: hummingbird_7
+  - first:
+      213: -1742999613188828769
+    second: hummingbird_8
+  - first:
+      213: -1061197038312036393
+    second: hummingbird_9
+  - first:
+      213: -5294469103515661515
+    second: hummingbird_10
+  - first:
+      213: -6902365439920665680
+    second: hummingbird_11
+  - first:
+      213: -3387070251537242794
+    second: hummingbird_12
+  - first:
+      213: 1373225620677336870
+    second: hummingbird_13
+  - first:
+      213: 5394461862926170472
+    second: hummingbird_14
+  - first:
+      213: -4926475352852534733
+    second: hummingbird_15
+  - first:
+      213: -4650045484716904315
+    second: hummingbird_16
+  - first:
+      213: 1504343595142972891
+    second: hummingbird_17
+  - first:
+      213: 6840797851133891338
+    second: hummingbird_18
+  - first:
+      213: 1062469828511022845
+    second: hummingbird_19
+  - first:
+      213: 6264993441484174028
+    second: hummingbird_20
+  - first:
+      213: 7328322470683032440
+    second: hummingbird_21
+  - first:
+      213: -5208217074242567596
+    second: hummingbird_22
+  - first:
+      213: -8810124584619735873
+    second: hummingbird_23
+  - first:
+      213: -454268793319933756
+    second: hummingbird_24
+  - first:
+      213: 6445106177163083348
+    second: hummingbird_25
+  - first:
+      213: 9071233117699969330
+    second: hummingbird_26
+  - first:
+      213: -4776224587058490260
+    second: hummingbird_27
+  - first:
+      213: -5315583800579825748
+    second: hummingbird_28
+  - first:
+      213: 1057174869699680096
+    second: hummingbird_29
+  - first:
+      213: -1227310739164578891
+    second: hummingbird_30
+  - first:
+      213: -2239787647779955282
+    second: hummingbird_31
+  - first:
+      213: 6112763034497793229
+    second: hummingbird_32
+  - first:
+      213: 8327076663845644160
+    second: hummingbird_33
+  - first:
+      213: -7957596705285768720
+    second: hummingbird_34
+  - first:
+      213: 3323424613989078807
+    second: hummingbird_35
+  - first:
+      213: 1713892833786212514
+    second: hummingbird_36
+  - first:
+      213: 1696273069992431977
+    second: hummingbird_37
+  - first:
+      213: 9030981005328093759
+    second: hummingbird_38
+  - first:
+      213: 7384966154843915460
+    second: hummingbird_39
+  - first:
+      213: 4770872491740366587
+    second: hummingbird_40
+  - first:
+      213: 7315074591125334016
+    second: hummingbird_41
+  - first:
+      213: 5861741680752059537
+    second: hummingbird_42
+  - first:
+      213: -5065602222326655663
+    second: hummingbird_43
+  - first:
+      213: -5519896469018060371
+    second: hummingbird_44
+  - first:
+      213: 1246824315137501660
+    second: hummingbird_45
+  - first:
+      213: 3930497217056191451
+    second: hummingbird_46
+  - first:
+      213: -1518944245933291980
+    second: hummingbird_47
+  - first:
+      213: 8035568637428749529
+    second: hummingbird_48
+  - first:
+      213: 2294322830133970197
+    second: hummingbird_49
+  - first:
+      213: -5837507213847915249
+    second: hummingbird_50
+  - first:
+      213: 2171048678796825450
+    second: hummingbird_51
+  - first:
+      213: -7317823254604954382
+    second: hummingbird_52
+  - first:
+      213: 4501745807841645791
+    second: hummingbird_53
+  - first:
+      213: -5399572110424646098
+    second: hummingbird_54
+  - first:
+      213: -5628581816654976021
+    second: hummingbird_55
+  - first:
+      213: 3906298271768756681
+    second: hummingbird_56
+  - first:
+      213: -1335802776971089599
+    second: hummingbird_57
+  - first:
+      213: 8681995477375503372
+    second: hummingbird_58
+  - first:
+      213: -8293684487546268565
+    second: hummingbird_59
+  - first:
+      213: 1261641560268889374
+    second: hummingbird_60
+  - first:
+      213: -4618370802383387931
+    second: hummingbird_61
+  - first:
+      213: -8889248147103414611
+    second: hummingbird_62
+  - first:
+      213: -7785206655322618832
+    second: hummingbird_63
+  - first:
+      213: 374199671565376685
+    second: hummingbird_64
+  - first:
+      213: 8446737590921180327
+    second: hummingbird_65
+  - first:
+      213: -5636757359626976439
+    second: hummingbird_66
+  - first:
+      213: -3362724545106091191
+    second: hummingbird_67
+  - first:
+      213: 4260225365753111036
+    second: hummingbird_68
+  - first:
+      213: 2738839703903533793
+    second: hummingbird_69
+  - first:
+      213: -5249119781753632690
+    second: hummingbird_70
+  - first:
+      213: 2184799782322620824
+    second: hummingbird_71
+  - first:
+      213: -5735167288073068946
+    second: hummingbird_72
+  - first:
+      213: -7951734289858932351
+    second: hummingbird_73
+  - first:
+      213: 6795526151138174911
+    second: hummingbird_74
+  - first:
+      213: -2398476210979518925
+    second: hummingbird_75
+  - first:
+      213: -2287155288007017961
+    second: hummingbird_76
+  - first:
+      213: -3988418810764724907
+    second: hummingbird_77
+  - first:
+      213: 5621716325921916726
+    second: hummingbird_78
+  - first:
+      213: 3248566157407183887
+    second: hummingbird_79
+  - first:
+      213: -9221498390602826279
+    second: hummingbird_80
+  - first:
+      213: 4228587354738454619
+    second: hummingbird_81
+  - first:
+      213: -662429873602821526
+    second: hummingbird_82
+  - first:
+      213: -4906722540327800443
+    second: hummingbird_83
+  - first:
+      213: 3657955035119734766
+    second: hummingbird_84
+  - first:
+      213: 6653810321780186575
+    second: hummingbird_85
+  - first:
+      213: -6173141328800960212
+    second: hummingbird_86
+  - first:
+      213: -7874877305951279882
+    second: hummingbird_87
+  - first:
+      213: -5081357974297512317
+    second: hummingbird_88
+  - first:
+      213: -1727830597367265300
+    second: hummingbird_89
+  - first:
+      213: 5244288299852806639
+    second: hummingbird_90
+  - first:
+      213: 7331909738128809058
+    second: hummingbird_91
+  - first:
+      213: -9078451373477696660
+    second: hummingbird_92
+  - first:
+      213: 3132202404449968019
+    second: hummingbird_93
+  - first:
+      213: -5593600845267160532
+    second: hummingbird_94
+  - first:
+      213: 4498209408217720079
+    second: hummingbird_95
+  - first:
+      213: 7931075532710632554
+    second: hummingbird_96
+  - first:
+      213: 5040487847004829289
+    second: hummingbird_97
+  - first:
+      213: 413983454847149685
+    second: hummingbird_98
+  - first:
+      213: 6218289021997961231
+    second: hummingbird_99
+  - first:
+      213: 2215042003508923961
+    second: hummingbird_100
+  - first:
+      213: -2262861979669916247
+    second: hummingbird_101
+  - first:
+      213: 5618335789267143978
+    second: hummingbird_102
+  - first:
+      213: 4250556393190520954
+    second: hummingbird_103
+  - first:
+      213: 2545462611224561100
+    second: hummingbird_104
+  - first:
+      213: -4438682747082710238
+    second: hummingbird_105
+  - first:
+      213: -2979213292175200948
+    second: hummingbird_106
+  - first:
+      213: 6317421073919329393
+    second: hummingbird_107
+  - first:
+      213: -1340931066565458180
+    second: hummingbird_108
+  - first:
+      213: -7692601553041486181
+    second: hummingbird_109
+  - first:
+      213: 8240931753645546744
+    second: hummingbird_110
+  - first:
+      213: 939868297272402317
+    second: hummingbird_111
+  - first:
+      213: -2993546552784591045
+    second: hummingbird_112
+  - first:
+      213: -2410197631584467497
+    second: hummingbird_113
+  - first:
+      213: -6688925092634424509
+    second: hummingbird_114
+  - first:
+      213: -3594400483991538237
+    second: hummingbird_115
+  - first:
+      213: -4819166014457756673
+    second: hummingbird_116
+  - first:
+      213: -8914377551770979456
+    second: hummingbird_117
+  - first:
+      213: 7382652335154364845
+    second: hummingbird_118
+  - first:
+      213: -1608025999683353884
+    second: hummingbird_119
+  - first:
+      213: -2925584232903685582
+    second: hummingbird_120
+  - first:
+      213: -3104304385100514260
+    second: hummingbird_121
+  - first:
+      213: -4413073602304067938
+    second: hummingbird_122
+  - first:
+      213: -3056783210787911143
+    second: hummingbird_123
+  - first:
+      213: -3627206543199424313
+    second: hummingbird_124
+  - first:
+      213: -5260881639792923868
+    second: hummingbird_125
+  - first:
+      213: -593226910465494077
+    second: hummingbird_126
+  - first:
+      213: -4195152396183211528
+    second: hummingbird_127
+  - first:
+      213: -976748620716488460
+    second: hummingbird_128
+  - first:
+      213: -7556493015441757666
+    second: hummingbird_129
+  - first:
+      213: 4837545467752483035
+    second: hummingbird_130
+  - first:
+      213: -835604411813580457
+    second: hummingbird_131
+  - first:
+      213: 2575386278096928243
+    second: hummingbird_132
+  - first:
+      213: 6493772276816109339
+    second: hummingbird_133
+  - first:
+      213: -1808701553621724530
+    second: hummingbird_134
+  - first:
+      213: 3612714492085166485
+    second: hummingbird_135
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: hummingbird_0
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 204
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 963cd2c38150f8040800000000000000
+      internalID: 4651942541743997801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hummingbird_1
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 205
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3da3a439ea75af610800000000000000
+      internalID: 1655732220319120083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hummingbird_2
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 204
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 698bbfb9d36780540800000000000000
+      internalID: 4974355795412760726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hummingbird_3
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 204
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74ac4d0475d328da0800000000000000
+      internalID: -5944121113216497081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hummingbird_4
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 203
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bba7d351b372c5b0800000000000000
+      internalID: -5349586201909679176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hummingbird_5
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 204
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a144ebc3e05490cb0800000000000000
+      internalID: -4897307192337742822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hummingbird_6
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 202
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99fee8748baccfa00800000000000000
+      internalID: 791730527333707673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hummingbird_7
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 202
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce9740391a0e9fcd0800000000000000
+      internalID: -2523739131603551764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hummingbird_8
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 204
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f919c3c261f9fc7e0800000000000000
+      internalID: -1742999613188828769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hummingbird_9
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 204
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d7e6b68aeed541f0800000000000000
+      internalID: -1061197038312036393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hummingbird_10
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 202
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53b0ba2d6644686b0800000000000000
+      internalID: -5294469103515661515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hummingbird_11
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 203
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bb8893e33fd530a0800000000000000
+      internalID: -6902365439920665680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hummingbird_12
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 204
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65564db3d85bef0d0800000000000000
+      internalID: -3387070251537242794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hummingbird_13
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 204
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62f10f42d6dae0310800000000000000
+      internalID: 1373225620677336870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hummingbird_14
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 205
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8693b16bb7afcda40800000000000000
+      internalID: 5394461862926170472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hummingbird_15
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 204
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33ae186a4c4a1abb0800000000000000
+      internalID: -4926475352852534733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hummingbird_16
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 204
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5803a06c448b77fb0800000000000000
+      internalID: -4650045484716904315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hummingbird_17
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 204
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd581a8878080e410800000000000000
+      internalID: 1504343595142972891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hummingbird_18
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 202
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a035719c6656fee50800000000000000
+      internalID: 6840797851133891338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hummingbird_19
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 203
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfe38f80ea6aebe00800000000000000
+      internalID: 1062469828511022845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hummingbird_20
+      rect:
+        serializedVersion: 2
+        x: 976
+        y: 203
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc2f0d7775ab1f650800000000000000
+      internalID: 6264993441484174028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hummingbird_21
+      rect:
+        serializedVersion: 2
+        x: 1025
+        y: 204
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87b3390c57e63b560800000000000000
+      internalID: 7328322470683032440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hummingbird_22
+      rect:
+        serializedVersion: 2
+        x: 1076
+        y: 202
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 452c5a05a22b8b7b0800000000000000
+      internalID: -5208217074242567596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hummingbird_23
+      rect:
+        serializedVersion: 2
+        x: 1121
+        y: 202
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb40eca4e562cb580800000000000000
+      internalID: -8810124584619735873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hummingbird_24
+      rect:
+        serializedVersion: 2
+        x: 1168
+        y: 204
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c8be9570fc12b9f0800000000000000
+      internalID: -454268793319933756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hummingbird_25
+      rect:
+        serializedVersion: 2
+        x: 1217
+        y: 205
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45e3b75abed917950800000000000000
+      internalID: 6445106177163083348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hummingbird_26
+      rect:
+        serializedVersion: 2
+        x: 1266
+        y: 204
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2311447857e73ed70800000000000000
+      internalID: 9071233117699969330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hummingbird_27
+      rect:
+        serializedVersion: 2
+        x: 1313
+        y: 204
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6454e82b0177bdb0800000000000000
+      internalID: -4776224587058490260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hummingbird_28
+      rect:
+        serializedVersion: 2
+        x: 1361
+        y: 203
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: caf5e9052b04b36b0800000000000000
+      internalID: -5315583800579825748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hummingbird_29
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 203
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0675bed51f6dbae00800000000000000
+      internalID: 1057174869699680096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hummingbird_30
+      rect:
+        serializedVersion: 2
+        x: 1459
+        y: 203
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bbb213a267b7fee0800000000000000
+      internalID: -1227310739164578891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hummingbird_31
+      rect:
+        serializedVersion: 2
+        x: 1503
+        y: 203
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ead94c1500daae0e0800000000000000
+      internalID: -2239787647779955282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hummingbird_32
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 159
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcc3163d795e4d450800000000000000
+      internalID: 6112763034497793229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hummingbird_33
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 156
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 087e6f56b18bf8370800000000000000
+      internalID: 8327076663845644160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hummingbird_34
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 156
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f97f9b25ffe09190800000000000000
+      internalID: -7957596705285768720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hummingbird_35
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 157
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 717db92041d2f1e20800000000000000
+      internalID: 3323424613989078807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hummingbird_36
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 159
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a03ae4a378f8c710800000000000000
+      internalID: 1713892833786212514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hummingbird_37
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 156
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 961d5f2be5f5a8710800000000000000
+      internalID: 1696273069992431977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hummingbird_38
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 156
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3291eb406d745d70800000000000000
+      internalID: 9030981005328093759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hummingbird_39
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 157
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c401c1379bac7660800000000000000
+      internalID: 7384966154843915460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hummingbird_40
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 159
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf60eda014b853240800000000000000
+      internalID: 4770872491740366587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hummingbird_41
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 157
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 008e28d659d548560800000000000000
+      internalID: 7315074591125334016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hummingbird_42
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 156
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 194e3567007195150800000000000000
+      internalID: 5861741680752059537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hummingbird_43
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 157
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1555ac41e9d53b9b0800000000000000
+      internalID: -5065602222326655663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hummingbird_44
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 158
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da9de3738636563b0800000000000000
+      internalID: -5519896469018060371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hummingbird_45
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 158
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd92711db1c9d4110800000000000000
+      internalID: 1246824315137501660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hummingbird_46
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 156
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd3bb4de46eeb8630800000000000000
+      internalID: 3930497217056191451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hummingbird_47
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 157
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 436c58b8140abeae0800000000000000
+      internalID: -1518944245933291980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hummingbird_48
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 159
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d4d53af913148f60800000000000000
+      internalID: 8035568637428749529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hummingbird_49
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 157
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 515443a457217df10800000000000000
+      internalID: 2294322830133970197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hummingbird_50
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 156
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0590d01e120dfea0800000000000000
+      internalID: -5837507213847915249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hummingbird_51
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 157
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6314c9454d112e10800000000000000
+      internalID: 2171048678796825450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hummingbird_52
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 159
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f4cd2c758ed17a90800000000000000
+      internalID: -7317823254604954382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hummingbird_53
+      rect:
+        serializedVersion: 2
+        x: 1027
+        y: 156
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd4518106f9697e30800000000000000
+      internalID: 4501745807841645791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hummingbird_54
+      rect:
+        serializedVersion: 2
+        x: 1075
+        y: 156
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2e580316cdd015b0800000000000000
+      internalID: -5399572110424646098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hummingbird_55
+      rect:
+        serializedVersion: 2
+        x: 1123
+        y: 157
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bebae05c8a243e1b0800000000000000
+      internalID: -5628581816654976021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hummingbird_56
+      rect:
+        serializedVersion: 2
+        x: 1172
+        y: 159
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c1cf7be495f53630800000000000000
+      internalID: 3906298271768756681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hummingbird_57
+      rect:
+        serializedVersion: 2
+        x: 1219
+        y: 156
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14968a4a376467de0800000000000000
+      internalID: -1335802776971089599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hummingbird_58
+      rect:
+        serializedVersion: 2
+        x: 1267
+        y: 156
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0cc38233e4ac7870800000000000000
+      internalID: 8681995477375503372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hummingbird_59
+      rect:
+        serializedVersion: 2
+        x: 1315
+        y: 157
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6413a086e9e6ec80800000000000000
+      internalID: -8293684487546268565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hummingbird_60
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 159
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1d52b98050428110800000000000000
+      internalID: 1261641560268889374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hummingbird_61
+      rect:
+        serializedVersion: 2
+        x: 1409
+        y: 158
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e207e2793048efb0800000000000000
+      internalID: -4618370802383387931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hummingbird_62
+      rect:
+        serializedVersion: 2
+        x: 1459
+        y: 156
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da60a9f48eb03a480800000000000000
+      internalID: -8889248147103414611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hummingbird_63
+      rect:
+        serializedVersion: 2
+        x: 1504
+        y: 157
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0340d767bc365f390800000000000000
+      internalID: -7785206655322618832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hummingbird_64
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 111
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dacd8b26e9c613500800000000000000
+      internalID: 374199671565376685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hummingbird_65
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 110
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a4bbc11617d83570800000000000000
+      internalID: 8446737590921180327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hummingbird_66
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 110
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9438d56db0736c1b0800000000000000
+      internalID: -5636757359626976439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hummingbird_67
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 110
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 943e67bb7d33551d0800000000000000
+      internalID: -3362724545106091191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hummingbird_68
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 107
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf1a2d4066c5f1b30800000000000000
+      internalID: 4260225365753111036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hummingbird_69
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 107
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1eaf7ef1330520620800000000000000
+      internalID: 2738839703903533793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hummingbird_70
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 103
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4849199e516727b0800000000000000
+      internalID: -5249119781753632690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hummingbird_71
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 102
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 899c0b293d7f15e10800000000000000
+      internalID: 2184799782322620824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hummingbird_72
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 102
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6ed6fadcb79860b0800000000000000
+      internalID: -5735167288073068946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hummingbird_73
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 111
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1815aa02bc3c5a190800000000000000
+      internalID: -7951734289858932351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hummingbird_74
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 110
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb7e77cb70f8e4e50800000000000000
+      internalID: 6795526151138174911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hummingbird_75
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 110
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33647520896e6bed0800000000000000
+      internalID: -2398476210979518925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hummingbird_76
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 110
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71a7f2822646240e0800000000000000
+      internalID: -2287155288007017961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hummingbird_77
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 107
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 555f1e0293a46a8c0800000000000000
+      internalID: -3988418810764724907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hummingbird_78
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 107
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 637079a9639540e40800000000000000
+      internalID: 5621716325921916726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hummingbird_79
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 103
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f046c9165b9351d20800000000000000
+      internalID: 3248566157407183887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hummingbird_80
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 102
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9dd38434218a60080800000000000000
+      internalID: -9221498390602826279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hummingbird_81
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 102
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b50f4ec8bc5feaa30800000000000000
+      internalID: 4228587354738454619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hummingbird_82
+      rect:
+        serializedVersion: 2
+        x: 881
+        y: 111
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a620c472a839ec6f0800000000000000
+      internalID: -662429873602821526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hummingbird_83
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 110
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 581fb54b8d1d7ebb0800000000000000
+      internalID: -4906722540327800443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hummingbird_84
+      rect:
+        serializedVersion: 2
+        x: 975
+        y: 110
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eefc9a849baa3c230800000000000000
+      internalID: 3657955035119734766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hummingbird_85
+      rect:
+        serializedVersion: 2
+        x: 1026
+        y: 110
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcd1988fb35175c50800000000000000
+      internalID: 6653810321780186575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hummingbird_86
+      rect:
+        serializedVersion: 2
+        x: 1072
+        y: 107
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c21398c0ba8945aa0800000000000000
+      internalID: -6173141328800960212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hummingbird_87
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 107
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f42df820d0d6b290800000000000000
+      internalID: -7874877305951279882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hummingbird_88
+      rect:
+        serializedVersion: 2
+        x: 1170
+        y: 103
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 386f56538d36b79b0800000000000000
+      internalID: -5081357974297512317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hummingbird_89
+      rect:
+        serializedVersion: 2
+        x: 1218
+        y: 102
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce78fd3e9338508e0800000000000000
+      internalID: -1727830597367265300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hummingbird_90
+      rect:
+        serializedVersion: 2
+        x: 1267
+        y: 102
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe9b67c5c6477c840800000000000000
+      internalID: 5244288299852806639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hummingbird_91
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 63
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26c156a8f0d20c560800000000000000
+      internalID: 7331909738128809058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hummingbird_92
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 62
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6b6435539cd20280800000000000000
+      internalID: -9078451373477696660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hummingbird_93
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 62
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39f5dd1ed71d77b20800000000000000
+      internalID: 3132202404449968019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hummingbird_94
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 62
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c22b68adaa98f52b0800000000000000
+      internalID: -5593600845267160532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hummingbird_95
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 59
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f05232ecf99dc6e30800000000000000
+      internalID: 4498209408217720079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hummingbird_96
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 59
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6c52062d27d01e60800000000000000
+      internalID: 7931075532710632554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hummingbird_97
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 55
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 966756fbdf863f540800000000000000
+      internalID: 5040487847004829289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hummingbird_98
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 54
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 576ad0142c3ceb500800000000000000
+      internalID: 413983454847149685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hummingbird_99
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 54
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0056ea6beccb4650800000000000000
+      internalID: 6218289021997961231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hummingbird_100
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 63
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93e08b567f86dbe10800000000000000
+      internalID: 2215042003508923961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hummingbird_101
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 62
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a59906c403b890e0800000000000000
+      internalID: -2262861979669916247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hummingbird_102
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 62
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2dc12412a658fd40800000000000000
+      internalID: 5618335789267143978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hummingbird_103
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 62
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a78f2e9e4820dfa30800000000000000
+      internalID: 4250556393190520954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hummingbird_104
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 59
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc5041b22cc435320800000000000000
+      internalID: 2545462611224561100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hummingbird_105
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 59
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 223ea750f81a662c0800000000000000
+      internalID: -4438682747082710238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hummingbird_106
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 55
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4d66c99b45b7a6d0800000000000000
+      internalID: -2979213292175200948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hummingbird_107
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 54
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 174478fdefcfba750800000000000000
+      internalID: 6317421073919329393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hummingbird_108
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 54
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf6841dac4e046de0800000000000000
+      internalID: -1340931066565458180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hummingbird_109
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 63
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9e085805a36e3590800000000000000
+      internalID: -7692601553041486181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hummingbird_110
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 62
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fc974284cbad5270800000000000000
+      internalID: 8240931753645546744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hummingbird_111
+      rect:
+        serializedVersion: 2
+        x: 976
+        y: 62
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d81a29a9c351b0d00800000000000000
+      internalID: 939868297272402317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hummingbird_112
+      rect:
+        serializedVersion: 2
+        x: 1027
+        y: 62
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b37edae4549c476d0800000000000000
+      internalID: -2993546552784591045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hummingbird_113
+      rect:
+        serializedVersion: 2
+        x: 1074
+        y: 59
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d58bea16024d8ed0800000000000000
+      internalID: -2410197631584467497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hummingbird_114
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 59
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34b0454511a2c23a0800000000000000
+      internalID: -6688925092634424509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hummingbird_115
+      rect:
+        serializedVersion: 2
+        x: 1171
+        y: 55
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c53133cdcf1e1ec0800000000000000
+      internalID: -3594400483991538237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hummingbird_116
+      rect:
+        serializedVersion: 2
+        x: 1220
+        y: 54
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff34c9afa02ee1db0800000000000000
+      internalID: -4819166014457756673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hummingbird_117
+      rect:
+        serializedVersion: 2
+        x: 1268
+        y: 54
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08379f8d8d4c94480800000000000000
+      internalID: -8914377551770979456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hummingbird_118
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 15
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da185111f23747660800000000000000
+      internalID: 7382652335154364845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hummingbird_119
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 14
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e2084b7fd42fa9e0800000000000000
+      internalID: -1608025999683353884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hummingbird_120
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 14
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23aca4df3ac3667d0800000000000000
+      internalID: -2925584232903685582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hummingbird_121
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 14
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2c756beb9b4be4d0800000000000000
+      internalID: -3104304385100514260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hummingbird_122
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 11
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e96330fa0fc91c2c0800000000000000
+      internalID: -4413073602304067938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hummingbird_123
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 11
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91acb958ddf1495d0800000000000000
+      internalID: -3056783210787911143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hummingbird_124
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 7
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c030a1edd299adc0800000000000000
+      internalID: -3627206543199424313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hummingbird_125
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 6
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42ba4ce95089df6b0800000000000000
+      internalID: -5260881639792923868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hummingbird_126
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 6
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c3708a944f64c7f0800000000000000
+      internalID: -593226910465494077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hummingbird_127
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 14
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f1fede5f13d7c5c0800000000000000
+      internalID: -4195152396183211528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hummingbird_128
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 12
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f84753fd44e172f0800000000000000
+      internalID: -976748620716488460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hummingbird_129
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 13
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1aafd273a1f12790800000000000000
+      internalID: -7556493015441757666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hummingbird_130
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 13
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd80036f8f9622340800000000000000
+      internalID: 4837545467752483035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hummingbird_131
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 11
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7513a15f6365764f0800000000000000
+      internalID: -835604411813580457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hummingbird_132
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 11
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fdf169cc2c9db320800000000000000
+      internalID: 2575386278096928243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hummingbird_133
+      rect:
+        serializedVersion: 2
+        x: 737
+        y: 7
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1f57e3fa738e1a50800000000000000
+      internalID: 6493772276816109339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hummingbird_134
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 6
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e821ea7158336e6e0800000000000000
+      internalID: -1808701553621724530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hummingbird_135
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 6
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59164a780b0f22230800000000000000
+      internalID: 3612714492085166485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      hummingbird_0: 4651942541743997801
+      hummingbird_1: 1655732220319120083
+      hummingbird_10: -5294469103515661515
+      hummingbird_100: 2215042003508923961
+      hummingbird_101: -2262861979669916247
+      hummingbird_102: 5618335789267143978
+      hummingbird_103: 4250556393190520954
+      hummingbird_104: 2545462611224561100
+      hummingbird_105: -4438682747082710238
+      hummingbird_106: -2979213292175200948
+      hummingbird_107: 6317421073919329393
+      hummingbird_108: -1340931066565458180
+      hummingbird_109: -7692601553041486181
+      hummingbird_11: -6902365439920665680
+      hummingbird_110: 8240931753645546744
+      hummingbird_111: 939868297272402317
+      hummingbird_112: -2993546552784591045
+      hummingbird_113: -2410197631584467497
+      hummingbird_114: -6688925092634424509
+      hummingbird_115: -3594400483991538237
+      hummingbird_116: -4819166014457756673
+      hummingbird_117: -8914377551770979456
+      hummingbird_118: 7382652335154364845
+      hummingbird_119: -1608025999683353884
+      hummingbird_12: -3387070251537242794
+      hummingbird_120: -2925584232903685582
+      hummingbird_121: -3104304385100514260
+      hummingbird_122: -4413073602304067938
+      hummingbird_123: -3056783210787911143
+      hummingbird_124: -3627206543199424313
+      hummingbird_125: -5260881639792923868
+      hummingbird_126: -593226910465494077
+      hummingbird_127: -4195152396183211528
+      hummingbird_128: -976748620716488460
+      hummingbird_129: -7556493015441757666
+      hummingbird_13: 1373225620677336870
+      hummingbird_130: 4837545467752483035
+      hummingbird_131: -835604411813580457
+      hummingbird_132: 2575386278096928243
+      hummingbird_133: 6493772276816109339
+      hummingbird_134: -1808701553621724530
+      hummingbird_135: 3612714492085166485
+      hummingbird_14: 5394461862926170472
+      hummingbird_15: -4926475352852534733
+      hummingbird_16: -4650045484716904315
+      hummingbird_17: 1504343595142972891
+      hummingbird_18: 6840797851133891338
+      hummingbird_19: 1062469828511022845
+      hummingbird_2: 4974355795412760726
+      hummingbird_20: 6264993441484174028
+      hummingbird_21: 7328322470683032440
+      hummingbird_22: -5208217074242567596
+      hummingbird_23: -8810124584619735873
+      hummingbird_24: -454268793319933756
+      hummingbird_25: 6445106177163083348
+      hummingbird_26: 9071233117699969330
+      hummingbird_27: -4776224587058490260
+      hummingbird_28: -5315583800579825748
+      hummingbird_29: 1057174869699680096
+      hummingbird_3: -5944121113216497081
+      hummingbird_30: -1227310739164578891
+      hummingbird_31: -2239787647779955282
+      hummingbird_32: 6112763034497793229
+      hummingbird_33: 8327076663845644160
+      hummingbird_34: -7957596705285768720
+      hummingbird_35: 3323424613989078807
+      hummingbird_36: 1713892833786212514
+      hummingbird_37: 1696273069992431977
+      hummingbird_38: 9030981005328093759
+      hummingbird_39: 7384966154843915460
+      hummingbird_4: -5349586201909679176
+      hummingbird_40: 4770872491740366587
+      hummingbird_41: 7315074591125334016
+      hummingbird_42: 5861741680752059537
+      hummingbird_43: -5065602222326655663
+      hummingbird_44: -5519896469018060371
+      hummingbird_45: 1246824315137501660
+      hummingbird_46: 3930497217056191451
+      hummingbird_47: -1518944245933291980
+      hummingbird_48: 8035568637428749529
+      hummingbird_49: 2294322830133970197
+      hummingbird_5: -4897307192337742822
+      hummingbird_50: -5837507213847915249
+      hummingbird_51: 2171048678796825450
+      hummingbird_52: -7317823254604954382
+      hummingbird_53: 4501745807841645791
+      hummingbird_54: -5399572110424646098
+      hummingbird_55: -5628581816654976021
+      hummingbird_56: 3906298271768756681
+      hummingbird_57: -1335802776971089599
+      hummingbird_58: 8681995477375503372
+      hummingbird_59: -8293684487546268565
+      hummingbird_6: 791730527333707673
+      hummingbird_60: 1261641560268889374
+      hummingbird_61: -4618370802383387931
+      hummingbird_62: -8889248147103414611
+      hummingbird_63: -7785206655322618832
+      hummingbird_64: 374199671565376685
+      hummingbird_65: 8446737590921180327
+      hummingbird_66: -5636757359626976439
+      hummingbird_67: -3362724545106091191
+      hummingbird_68: 4260225365753111036
+      hummingbird_69: 2738839703903533793
+      hummingbird_7: -2523739131603551764
+      hummingbird_70: -5249119781753632690
+      hummingbird_71: 2184799782322620824
+      hummingbird_72: -5735167288073068946
+      hummingbird_73: -7951734289858932351
+      hummingbird_74: 6795526151138174911
+      hummingbird_75: -2398476210979518925
+      hummingbird_76: -2287155288007017961
+      hummingbird_77: -3988418810764724907
+      hummingbird_78: 5621716325921916726
+      hummingbird_79: 3248566157407183887
+      hummingbird_8: -1742999613188828769
+      hummingbird_80: -9221498390602826279
+      hummingbird_81: 4228587354738454619
+      hummingbird_82: -662429873602821526
+      hummingbird_83: -4906722540327800443
+      hummingbird_84: 3657955035119734766
+      hummingbird_85: 6653810321780186575
+      hummingbird_86: -6173141328800960212
+      hummingbird_87: -7874877305951279882
+      hummingbird_88: -5081357974297512317
+      hummingbird_89: -1727830597367265300
+      hummingbird_9: -1061197038312036393
+      hummingbird_90: 5244288299852806639
+      hummingbird_91: 7331909738128809058
+      hummingbird_92: -9078451373477696660
+      hummingbird_93: 3132202404449968019
+      hummingbird_94: -5593600845267160532
+      hummingbird_95: 4498209408217720079
+      hummingbird_96: 7931075532710632554
+      hummingbird_97: 5040487847004829289
+      hummingbird_98: 413983454847149685
+      hummingbird_99: 6218289021997961231
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

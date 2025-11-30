@@ -10,9 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 264003510906292244}
   - component: {fileID: 7176598126139358483}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: VisualCue
-  m_TagString: Untagged
+  m_TagString: NPC
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -76,8 +76,8 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: -107841615
-  m_SortingLayer: 2
+  m_SortingLayerID: -1655077939
+  m_SortingLayer: 3
   m_SortingOrder: 1
   m_Sprite: {fileID: -8503743628074957463, guid: 07710615113429a44a4e2cbfa9b60e60, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -104,7 +104,7 @@ GameObject:
   - component: {fileID: 1187443452334470716}
   m_Layer: 0
   m_Name: Sprite
-  m_TagString: Untagged
+  m_TagString: NPC
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -171,7 +171,7 @@ SpriteRenderer:
   m_SortingLayerID: -107841615
   m_SortingLayer: 2
   m_SortingOrder: 0
-  m_Sprite: {fileID: -5444761115681593122, guid: e0a6d40f4a66bfa42b7de83061dc49bc, type: 3}
+  m_Sprite: {fileID: -333462223, guid: 7d0d63db98046be41bf9a04c2eae04c7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -190,9 +190,9 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2434438758672784552}
-  m_Enabled: 0
+  m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 52b8d93b11ca9754d85083b795c885e8, type: 2}
+  m_Controller: {fileID: 9100000, guid: c559304678bc1224384f3a3427af3572, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -232,10 +232,9 @@ GameObject:
   - component: {fileID: 1975550134105179991}
   - component: {fileID: 4946041718610225612}
   - component: {fileID: 3287632630182659241}
-  - component: {fileID: 4037794188766504623}
   - component: {fileID: 4953489291404013686}
   - component: {fileID: 9055898819855824891}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: NPCResetPuzzle
   m_TagString: NPC
   m_Icon: {fileID: 0}
@@ -426,31 +425,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 4
---- !u!114 &4037794188766504623
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3123253754364953754}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7f4a2d13a0902ad43a0f8fdba5b48bc3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::NPCFollowPlayer
-  player: {fileID: 0}
-  followSpeed: 3
-  runSpeed: 6
-  followDistanceThreshold: 3.5
-  stoppingDistance: 1.3
-  closeEnoughDistance: 1
-  canRun: 1
-  tooFarDistance: 10
-  OnTooFarFromPlayer:
-    m_PersistentCalls:
-      m_Calls: []
-  rb: {fileID: 3287632630182659241}
-  animator: {fileID: 4702561161770987799}
 --- !u!114 &4953489291404013686
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -463,7 +437,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2fdd48552816fd4aa3f56c52a583a05, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NPCInteractDialogue
-  inkFile: {fileID: 4900000, guid: 562f9f475f52f1440986aa048bec53d6, type: 3}
+  inkFile: {fileID: 4900000, guid: 5df895678daf0084c9b0bdc871ca307d, type: 3}
   dialogueManager: {fileID: 0}
   maxFacingAngle: 35
   visualCue: {fileID: 1730654154671144470}
@@ -482,137 +456,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::InkTagEventTrigger
   tagType: outcome
   matches:
-  - expectedValue: acalmou_sarue
+  - expectedValue: puzzle_reset
     onMatch:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 4037794188766504623}
-          m_TargetAssemblyTypeName: NPCFollower, Assembly-CSharp
-          m_MethodName: StartFollowing
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-        - m_Target: {fileID: 4953489291404013686}
-          m_TargetAssemblyTypeName: NPCInteractDialogue, Assembly-CSharp
-          m_MethodName: SetInkFile
-          m_Mode: 2
-          m_Arguments:
-            m_ObjectArgument: {fileID: 4900000, guid: b7a8437b2dda9e84b947175875b85968, type: 3}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.TextAsset, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-        - m_Target: {fileID: 4702561161770987799}
-          m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
-          m_MethodName: set_enabled
-          m_Mode: 6
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 1
-          m_CallState: 2
         - m_Target: {fileID: 0}
-          m_TargetAssemblyTypeName: NPCInteractDialogue, Assembly-CSharp
-          m_MethodName: SetInkFile
-          m_Mode: 2
-          m_Arguments:
-            m_ObjectArgument: {fileID: 4900000, guid: ec2b5bd02aafc234ebdd8221829fcdfe, type: 3}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.TextAsset, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 1
-          m_CallState: 2
-  - expectedValue: assustou_sarue
-    onMatch:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 4953489291404013686}
-          m_TargetAssemblyTypeName: NPCInteractDialogue, Assembly-CSharp
-          m_MethodName: DisableInteraction
+          m_TargetAssemblyTypeName: ResetPushableBlock, Assembly-CSharp
+          m_MethodName: ResetPosition
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-        - m_Target: {fileID: 4037794188766504623}
-          m_TargetAssemblyTypeName: NPCFollower, Assembly-CSharp
-          m_MethodName: set_enabled
-          m_Mode: 6
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-  - expectedValue: sarue_ficou
-    onMatch:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 4037794188766504623}
-          m_TargetAssemblyTypeName: NPCFollower, Assembly-CSharp
-          m_MethodName: StopFollowing
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-        - m_Target: {fileID: 4953489291404013686}
-          m_TargetAssemblyTypeName: NPCInteractDialogue, Assembly-CSharp
-          m_MethodName: SetInkFile
-          m_Mode: 2
-          m_Arguments:
-            m_ObjectArgument: {fileID: 4900000, guid: 3b0fbc97be66c38449e1da8f3d16f003, type: 3}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.TextAsset, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-  - expectedValue: sarue_seguindo
-    onMatch:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 4037794188766504623}
-          m_TargetAssemblyTypeName: NPCFollower, Assembly-CSharp
-          m_MethodName: StartFollowing
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-        - m_Target: {fileID: 4953489291404013686}
-          m_TargetAssemblyTypeName: NPCInteractDialogue, Assembly-CSharp
-          m_MethodName: SetInkFile
-          m_Mode: 2
-          m_Arguments:
-            m_ObjectArgument: {fileID: 4900000, guid: b7a8437b2dda9e84b947175875b85968, type: 3}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.TextAsset, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
             m_StringArgument: 

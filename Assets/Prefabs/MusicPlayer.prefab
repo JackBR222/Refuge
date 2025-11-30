@@ -10,8 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 268072023604839858}
   - component: {fileID: 5375963885383682973}
-  - component: {fileID: 8176284510431131320}
   - component: {fileID: 5933539036975497444}
+  - component: {fileID: 8055306386420875403}
   m_Layer: 0
   m_Name: MusicPlayer
   m_TagString: Untagged
@@ -92,19 +92,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &8176284510431131320
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8835963038067720138}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 47fd322aa8c2fcc4cbc305b4a6466e82, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::MusicTest
-  musicClip: {fileID: 8300000, guid: ae731a7b28f55974381d3e7ad528a944, type: 3}
 --- !u!82 &5933539036975497444
 AudioSource:
   m_ObjectHideFlags: 0
@@ -116,11 +103,11 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 0}
+  m_Resource: {fileID: 8300000, guid: ae731a7b28f55974381d3e7ad528a944, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.5
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -202,3 +189,17 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &8055306386420875403
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8835963038067720138}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3395362185eedbe48a67eebbb35c902c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AudioManagement
+  volumeSlider: {fileID: 0}
+  muteButton: {fileID: 0}
