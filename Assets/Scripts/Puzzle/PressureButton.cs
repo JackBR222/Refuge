@@ -19,6 +19,8 @@ public class PressureButton : MonoBehaviour
 
     public bool IsPressed => _objectsOnButton.Count > 0;
 
+    private bool canBePressed = true;
+
     private void Awake()
     {
         if (visualSpriteRenderer == null)
@@ -44,7 +46,7 @@ public class PressureButton : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (IsValidObject(other))
+        if (IsValidObject(other) && canBePressed)
         {
             _objectsOnButton.Add(other.gameObject);
             UpdateSprite();
@@ -54,7 +56,7 @@ public class PressureButton : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D other)
     {
-        if (_objectsOnButton.Contains(other.gameObject))
+        if (_objectsOnButton.Contains(other.gameObject) && canBePressed)
         {
             _objectsOnButton.Remove(other.gameObject);
             UpdateSprite();
@@ -73,7 +75,7 @@ public class PressureButton : MonoBehaviour
 
     private bool IsValidObject(Collider2D other)
     {
-        return other.CompareTag("Player") || other.CompareTag("NPC") || other.CompareTag("Pushable");
+        return other.CompareTag("Player") || other.CompareTag("NPC") || other.CompareTag("Pushable") || other.CompareTag("Player2");
     }
 
     private void PlayPressSound()
@@ -82,5 +84,16 @@ public class PressureButton : MonoBehaviour
         {
             audioSource.PlayOneShot(pressSound);
         }
+    }
+
+    public void LockButton()
+    {
+        canBePressed = false;
+        UpdateSprite();
+    }
+
+    public void UnlockButton()
+    {
+        canBePressed = true;
     }
 }

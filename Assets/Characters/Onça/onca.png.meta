@@ -1,0 +1,676 @@
+fileFormatVersion: 2
+guid: b3d4eaf9aaaf1354e9849987a93b4415
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7877427324065057761
+    second: oncapintuda_0
+  - first:
+      213: -3072757768244319822
+    second: oncapintuda_1
+  - first:
+      213: -3177799599441782640
+    second: oncapintuda_2
+  - first:
+      213: -6886676737989199180
+    second: oncapintuda_3
+  - first:
+      213: -8921124350525253903
+    second: oncapintuda_4
+  - first:
+      213: 4565658070974107240
+    second: oncapintuda_5
+  - first:
+      213: 7161007796854916102
+    second: oncapintuda_6
+  - first:
+      213: 1784739018845892663
+    second: oncapintuda_7
+  - first:
+      213: 8350205291034426120
+    second: oncapintuda_8
+  - first:
+      213: 2831263718527916996
+    second: oncapintuda_9
+  - first:
+      213: -4301318438483067740
+    second: oncapintuda_10
+  - first:
+      213: 5941556784055999269
+    second: oncapintuda_11
+  - first:
+      213: 4636228974684660720
+    second: oncapintuda_12
+  - first:
+      213: -5749278723085311625
+    second: oncapintuda_13
+  - first:
+      213: -6130112479240868881
+    second: oncapintuda_14
+  - first:
+      213: -3324971564759541188
+    second: oncapintuda_15
+  - first:
+      213: -1416382908732519525
+    second: oncapintuda_16
+  - first:
+      213: 8459791310717967310
+    second: oncapintuda_17
+  - first:
+      213: 45618393553520777
+    second: oncapintuda_18
+  - first:
+      213: -6455994583623615934
+    second: oncapintuda_19
+  - first:
+      213: 2959702532777842987
+    second: oncapintuda_20
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: oncapintuda_0
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 14
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f14752dc591cda290800000000000000
+      internalID: -7877427324065057761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oncapintuda_1
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 14
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b9a9f6071f5b55d0800000000000000
+      internalID: -3072757768244319822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oncapintuda_2
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 14
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 098d4ebd91036e3d0800000000000000
+      internalID: -3177799599441782640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oncapintuda_3
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 14
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ba35357efb9d60a0800000000000000
+      internalID: -6886676737989199180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oncapintuda_4
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 14
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f6dad95bacc13480800000000000000
+      internalID: -8921124350525253903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oncapintuda_5
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 14
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86e8e4e53d97c5f30800000000000000
+      internalID: 4565658070974107240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oncapintuda_6
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 14
+        width: 38
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 604075d86a2016360800000000000000
+      internalID: 7161007796854916102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oncapintuda_7
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 14
+        width: 37
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 730b6138eaaa4c810800000000000000
+      internalID: 1784739018845892663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oncapintuda_8
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 14
+        width: 38
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80bb1bd8873e1e370800000000000000
+      internalID: 8350205291034426120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oncapintuda_9
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 14
+        width: 38
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cbde40f95baa4720800000000000000
+      internalID: 2831263718527916996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oncapintuda_10
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 14
+        width: 37
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4acf0686ba5ae44c0800000000000000
+      internalID: -4301318438483067740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oncapintuda_11
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 14
+        width: 38
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52b58765a66a47250800000000000000
+      internalID: 5941556784055999269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oncapintuda_12
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 14
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f3e37d40b1375040800000000000000
+      internalID: 4636228974684660720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oncapintuda_13
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 14
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 771e9cb56757630b0800000000000000
+      internalID: -5749278723085311625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oncapintuda_14
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 14
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: feba8a9cd277deaa0800000000000000
+      internalID: -6130112479240868881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oncapintuda_15
+      rect:
+        serializedVersion: 2
+        x: 974
+        y: 14
+        width: 38
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3a9b327af35bd1d0800000000000000
+      internalID: -3324971564759541188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oncapintuda_16
+      rect:
+        serializedVersion: 2
+        x: 1038
+        y: 14
+        width: 37
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9b4013bf3ff75ce0800000000000000
+      internalID: -1416382908732519525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oncapintuda_17
+      rect:
+        serializedVersion: 2
+        x: 1102
+        y: 14
+        width: 38
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecbd74d0067376570800000000000000
+      internalID: 8459791310717967310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oncapintuda_18
+      rect:
+        serializedVersion: 2
+        x: 1166
+        y: 14
+        width: 38
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9884bfeefa112a000800000000000000
+      internalID: 45618393553520777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oncapintuda_19
+      rect:
+        serializedVersion: 2
+        x: 1230
+        y: 14
+        width: 37
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24ab44ba123b766a0800000000000000
+      internalID: -6455994583623615934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oncapintuda_20
+      rect:
+        serializedVersion: 2
+        x: 1294
+        y: 14
+        width: 38
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b291c0bb5c9f21920800000000000000
+      internalID: 2959702532777842987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      oncapintuda_0: -7877427324065057761
+      oncapintuda_1: -3072757768244319822
+      oncapintuda_10: -4301318438483067740
+      oncapintuda_11: 5941556784055999269
+      oncapintuda_12: 4636228974684660720
+      oncapintuda_13: -5749278723085311625
+      oncapintuda_14: -6130112479240868881
+      oncapintuda_15: -3324971564759541188
+      oncapintuda_16: -1416382908732519525
+      oncapintuda_17: 8459791310717967310
+      oncapintuda_18: 45618393553520777
+      oncapintuda_19: -6455994583623615934
+      oncapintuda_2: -3177799599441782640
+      oncapintuda_20: 2959702532777842987
+      oncapintuda_3: -6886676737989199180
+      oncapintuda_4: -8921124350525253903
+      oncapintuda_5: 4565658070974107240
+      oncapintuda_6: 7161007796854916102
+      oncapintuda_7: 1784739018845892663
+      oncapintuda_8: 8350205291034426120
+      oncapintuda_9: 2831263718527916996
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

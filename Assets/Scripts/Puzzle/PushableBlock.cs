@@ -14,7 +14,9 @@ public class PushableBlock : MonoBehaviour
     private bool isBeingPushed = false;
     private Vector2 pushDirection;
 
-    private void Start()
+    private InputAction moveAction;
+
+    private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
         if (rb == null)
@@ -29,6 +31,14 @@ public class PushableBlock : MonoBehaviour
 
         if (pushSound != null)
             pushSound.Stop();
+
+        if (InputManager.Instance == null || InputManager.Instance.playerInput == null)
+        {
+            Debug.LogError("InputManager ou PlayerInput não encontrado na cena!");
+            return;
+        }
+
+        moveAction = InputManager.Instance.playerInput.actions["Move"];
     }
 
     private void FixedUpdate()
@@ -58,38 +68,31 @@ public class PushableBlock : MonoBehaviour
             return;
         }
 
-        PlayerInput playerInput = collision.gameObject.GetComponent<PlayerInput>();
-        if (playerInput == null)
+        PlayerMove player = collision.gameObject.GetComponent<PlayerMove>();
+        if (player == null || !player.canMove)
         {
             isBeingPushed = false;
             return;
         }
 
+        // Direção do input do jogador
+        Vector2 playerInputDirection = moveAction.ReadValue<Vector2>().normalized;
         Vector2 fromPlayerToBox = ((Vector2)transform.position - (Vector2)collision.transform.position).normalized;
-        PlayerMove player = collision.gameObject.GetComponent<PlayerMove>();
 
-        if (player != null)
+        float dotProduct = Vector2.Dot(playerInputDirection, fromPlayerToBox);
+
+        if (dotProduct > 0.5f)
         {
-            Vector2 playerInputDirection = playerInput.actions.FindAction("Move").ReadValue<Vector2>();
-            float dotProduct = Vector2.Dot(playerInputDirection, fromPlayerToBox);
-
-            if (dotProduct > 0.5f)
+            if (Mathf.Abs(fromPlayerToBox.x) > Mathf.Abs(fromPlayerToBox.y))
             {
-                if (Mathf.Abs(fromPlayerToBox.x) > Mathf.Abs(fromPlayerToBox.y))
-                {
-                    pushDirection = new Vector2(Mathf.Sign(fromPlayerToBox.x), 0);
-                }
-                else
-                {
-                    pushDirection = new Vector2(0, Mathf.Sign(fromPlayerToBox.y));
-                }
-
-                isBeingPushed = true;
+                pushDirection = new Vector2(Mathf.Sign(fromPlayerToBox.x), 0);
             }
             else
             {
-                isBeingPushed = false;
+                pushDirection = new Vector2(0, Mathf.Sign(fromPlayerToBox.y));
             }
+
+            isBeingPushed = true;
         }
         else
         {
@@ -99,7 +102,7 @@ public class PushableBlock : MonoBehaviour
 
     private void OnCollisionExit2D(Collision2D collision)
     {
-        if (collision.gameObject.GetComponent<PlayerInput>() != null)
+        if (collision.gameObject.GetComponent<PlayerMove>() != null)
             isBeingPushed = false;
     }
 

@@ -11,9 +11,6 @@ public class PlayerMove : MonoBehaviour
     [Header("Referências")]
     [SerializeField] private Rigidbody2D rb;
 
-    [Header("Player Input")]
-    [SerializeField] private PlayerInput playerInput;  // Agora podemos configurar manualmente o PlayerInput
-
     private Animator animator;
 
     private InputAction moveAction;
@@ -25,21 +22,24 @@ public class PlayerMove : MonoBehaviour
     public bool canMove = true;
     public Vector2 LastDirection => lastDirection;
 
+    private NPCFollower npcFollower;
+
+    private float currentSpeedMultiplier = 1f;
+
     private void Awake()
     {
         if (rb == null) rb = GetComponent<Rigidbody2D>();
         rb.gravityScale = 0f;
         rb.freezeRotation = true;
 
-        // Certifique-se de que o PlayerInput foi atribuído no Inspector
-        if (playerInput == null)
+        if (InputManager.Instance == null || InputManager.Instance.playerInput == null)
         {
-            Debug.LogError("PlayerInput não atribuído! Atribua o PlayerInput manualmente no Inspector.");
+            Debug.LogError("InputManager ou PlayerInput não encontrado na cena!");
             return;
         }
 
-        moveAction = playerInput.actions["Move"];
-        sprintAction = playerInput.actions["Sprint"];
+        moveAction = InputManager.Instance.playerInput.actions["Move"];
+        sprintAction = InputManager.Instance.playerInput.actions["Sprint"];
 
         Transform spriteChild = transform.Find("Sprite");
         if (spriteChild == null)
@@ -54,17 +54,13 @@ public class PlayerMove : MonoBehaviour
                 Debug.LogError("Animator não encontrado no objeto filho 'Sprite'.");
             }
         }
+
+        npcFollower = GetComponent<NPCFollower>();
     }
 
     private void Update()
     {
-        if (!canMove)
-        {
-            StopMovement();
-            return;
-        }
-
-        if (Time.timeScale == 0f)
+        if (!canMove || Time.timeScale == 0f)
         {
             StopMovement();
             return;
@@ -74,6 +70,11 @@ public class PlayerMove : MonoBehaviour
         bool isRunning = sprintAction != null && sprintAction.IsPressed();
 
         UpdateAnimator(isRunning);
+
+        if (npcFollower != null && !npcFollower.IsFollowing)
+        {
+            npcFollower.SendMessage("EnableCollider", SendMessageOptions.DontRequireReceiver);
+        }
     }
 
     private void FixedUpdate()
@@ -85,7 +86,7 @@ public class PlayerMove : MonoBehaviour
         }
 
         bool isRunning = sprintAction != null && sprintAction.IsPressed();
-        float speed = isRunning ? runSpeed : walkSpeed;
+        float speed = (isRunning ? runSpeed : walkSpeed) * currentSpeedMultiplier;
 
         rb.linearVelocity = rawInput * speed;
     }
@@ -102,7 +103,6 @@ public class PlayerMove : MonoBehaviour
         if (rawInput != Vector2.zero)
         {
             lastDirection = rawInput;
-
             animator.SetFloat("MoveX", rawInput.x);
             animator.SetFloat("MoveY", rawInput.y);
             animator.SetBool("IsMoving", true);
@@ -124,6 +124,21 @@ public class PlayerMove : MonoBehaviour
         animator.SetBool("IsMoving", false);
         animator.SetBool("IsRunning", false);
         animator.SetFloat("Speed", 0f);
+    }
+
+    public void ModifySpeed(float multiplier)
+    {
+        currentSpeedMultiplier = multiplier;
+    }
+
+    public void ResetSpeed()
+    {
+        currentSpeedMultiplier = 1f;
+    }
+
+    public void SetCanMove(bool value)
+    {
+        canMove = value;
     }
 
     public Vector2 GetInputDirection()

@@ -7,6 +7,8 @@ TagManager:
   - Pushable
   - Box
   - NPC
+  - Player2
+  - NoIdleAnim
   layers:
   - Default
   - TransparentFX
@@ -17,9 +19,9 @@ TagManager:
   - PushableLimit
   - Wall
   - NPC
-  - 
-  - 
-  - 
+  - BirdWall
+  - Player
+  - InvWall
   - 
   - 
   - 

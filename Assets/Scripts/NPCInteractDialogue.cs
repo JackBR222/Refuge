@@ -24,7 +24,6 @@ public class NPCInteractDialogue : MonoBehaviour
     private bool canTalk = true;
     private bool isCooldown = false;
 
-    private PlayerInput playerInput;
     private InputAction interactAction;
     private Transform playerTransform;
     private PlayerMove playerMove;
@@ -34,20 +33,22 @@ public class NPCInteractDialogue : MonoBehaviour
         GameObject player = GameObject.FindWithTag("Player");
         if (player == null)
         {
-            Debug.LogError("[NPCInteractDialogue] Jogador não encontrado! Verifique se ele tem a tag 'Player'.");
+            Debug.LogError("[NPCInteractDialogue] Jogador não encontrado!");
             return;
         }
 
-        playerInput = player.GetComponent<PlayerInput>();
         playerTransform = player.transform;
         playerMove = player.GetComponent<PlayerMove>();
 
-        if (playerInput == null)
-            Debug.LogError("[NPCInteractDialogue] PlayerInput não encontrado no jogador!");
+        if (InputManager.Instance == null || InputManager.Instance.playerInput == null)
+        {
+            Debug.LogError("[NPCInteractDialogue] InputManager ou PlayerInput não encontrado!");
+            return;
+        }
 
-        interactAction = playerInput?.actions["Interact"];
+        interactAction = InputManager.Instance.playerInput.actions["Interact"];
         if (interactAction == null)
-            Debug.LogError("[NPCInteractDialogue] A ação 'Interact' não foi encontrada nas configurações de Input!");
+            Debug.LogError("[NPCInteractDialogue] Ação 'Interact' não encontrada!");
 
         if (visualCue != null)
             visualCue.SetActive(false);

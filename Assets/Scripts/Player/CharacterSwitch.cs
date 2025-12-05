@@ -1,27 +1,29 @@
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.UI;
 
 public class CharacterSwitch : MonoBehaviour
 {
+    [Header("Personagens")]
     public GameObject character1;
     public GameObject character2;
+
+    [Header("Configurações")]
     public bool followInactiveCharacter = true;
     public bool startFollowingOnStart = true;
 
+    [Header("UI")]
     public PlayerCamera playerCamera;
     public Image uiSpriteImage;
     public Sprite spriteForCharacter1;
     public Sprite spriteForCharacter2;
 
+    [Header("Sistema de Troca")]
+    [SerializeField] private bool systemEnabled = false;
+
     private GameObject activeCharacter;
     private GameObject inactiveCharacter;
 
-    private PlayerMove activePlayerMove;
-    private PlayerInput activePlayerInput;
-    private NPCFollower inactiveNpcFollower;
-
-    private PlayerInput playerInput;
     private InputAction switchAction;
 
     void Start()
@@ -29,29 +31,29 @@ public class CharacterSwitch : MonoBehaviour
         activeCharacter = character1;
         inactiveCharacter = character2;
 
-        playerInput = character1.GetComponent<PlayerInput>();
-        switchAction = playerInput.actions["Switch"];
+        if (InputManager.Instance == null || InputManager.Instance.playerInput == null)
+        {
+            Debug.LogError("InputManager ou PlayerInput não encontrado na cena!");
+            return;
+        }
+
+        switchAction = InputManager.Instance.playerInput.actions["Switch"];
         switchAction.started += OnSwitch;
 
         InitializeCharacter(activeCharacter, true, false);
         InitializeCharacter(inactiveCharacter, false, true);
 
         if (startFollowingOnStart && inactiveCharacter.GetComponent<NPCFollower>() != null)
-        {
             inactiveCharacter.GetComponent<NPCFollower>().StartFollowing();
-        }
 
         if (startFollowingOnStart && activeCharacter.GetComponent<NPCFollower>() != null)
-        {
             activeCharacter.GetComponent<NPCFollower>().StartFollowing();
-        }
 
         if (playerCamera != null)
-        {
             playerCamera.SwitchActiveCharacter(activeCharacter);
-        }
 
         UpdateUISprite();
+        UpdateUIVisibility();
     }
 
     void InitializeCharacter(GameObject character, bool isActivePlayerMove, bool isActiveNpcFollower)
@@ -60,7 +62,26 @@ public class CharacterSwitch : MonoBehaviour
         NPCFollower npcFollowerScript = character.GetComponent<NPCFollower>();
 
         if (playerMoveScript != null)
-            playerMoveScript.enabled = isActivePlayerMove;
+        {
+            if (isActivePlayerMove)
+            {
+                playerMoveScript.canMove = true;
+                playerMoveScript.enabled = true;
+            }
+            else
+            {
+                playerMoveScript.enabled = false;
+
+                if (!followInactiveCharacter)
+                {
+                    playerMoveScript.canMove = false;
+                }
+                else
+                {
+                    playerMoveScript.canMove = true;
+                }
+            }
+        }
 
         if (npcFollowerScript != null)
             npcFollowerScript.enabled = isActiveNpcFollower;
@@ -68,10 +89,8 @@ public class CharacterSwitch : MonoBehaviour
 
     public void OnSwitch(InputAction.CallbackContext context)
     {
-        if (context.started)
-        {
-            SwitchCharacter();
-        }
+        if (!systemEnabled) return;
+        if (context.started) SwitchCharacter();
     }
 
     void SwitchCharacter()
@@ -86,15 +105,19 @@ public class CharacterSwitch : MonoBehaviour
         InitializeCharacter(activeCharacter, true, false);
         InitializeCharacter(inactiveCharacter, false, true);
 
-        if (inactiveCharacter.GetComponent<NPCFollower>() != null)
+        NPCFollower npcFollower = inactiveCharacter.GetComponent<NPCFollower>();
+        if (npcFollower != null)
         {
-            inactiveCharacter.GetComponent<NPCFollower>().enabled = followInactiveCharacter;
+            npcFollower.enabled = followInactiveCharacter;
+
+            if (followInactiveCharacter && npcFollower.enabled)
+            {
+                npcFollower.StartFollowing();
+            }
         }
 
         if (playerCamera != null)
-        {
             playerCamera.SwitchActiveCharacter(activeCharacter);
-        }
 
         UpdateUISprite();
     }
@@ -103,19 +126,31 @@ public class CharacterSwitch : MonoBehaviour
     {
         if (uiSpriteImage != null)
         {
-            if (activeCharacter == character1)
-            {
-                uiSpriteImage.sprite = spriteForCharacter1;
-            }
-            else if (activeCharacter == character2)
-            {
-                uiSpriteImage.sprite = spriteForCharacter2;
-            }
+            uiSpriteImage.sprite = (activeCharacter == character1) ? spriteForCharacter1 : spriteForCharacter2;
         }
+    }
+
+    private void UpdateUIVisibility()
+    {
+        if (uiSpriteImage != null)
+            uiSpriteImage.gameObject.SetActive(systemEnabled);
+    }
+
+    public void EnableSwitchSystem()
+    {
+        systemEnabled = true;
+        UpdateUIVisibility();
+    }
+
+    public void DisableSwitchSystem()
+    {
+        systemEnabled = false;
+        UpdateUIVisibility();
     }
 
     private void OnDisable()
     {
-        switchAction.started -= OnSwitch;
+        if (switchAction != null)
+            switchAction.started -= OnSwitch;
     }
 }

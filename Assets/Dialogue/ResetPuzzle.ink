@@ -4,7 +4,7 @@
 #speaker:Vagalume
 #portrait:FireflyNeutral
 #audio:FireflyVoice
-Gostaria de resetar o Puzzle?
+Gostaria de resetar o puzzle?
 
 * [Sim] -> sim
 * [Não] -> nao
